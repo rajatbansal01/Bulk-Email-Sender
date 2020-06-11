@@ -5,8 +5,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 import pandas as pd
 
-email_user = 'roboticscommunity996@gmail.com'
-email_password = 'startupchamps'
+email_user = 'sender_email_address'
+email_password = 'password'
 e=pd.read_excel('emails.xlsx')
 email_to_send=e['students'].values
 
